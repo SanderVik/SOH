@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+  }
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -57,12 +61,13 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 
 .info-text {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid black;
 
 }
 
@@ -77,20 +82,15 @@ color: #000000;
 }
 
 .picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: calc(100% / 5);
     min-width: 150px;
 }
 
 
 .picture img{
-    width:  80%;
-    min-width: 150px;
-    margin: 1px;
-    border-bottom: 1px solid black;
+    width:  400px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .text-image {
@@ -98,3 +98,33 @@ color: #000000;
     font-size: 1rem;
     text-align: start;
 }
+
+.tilbud {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.donasjon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #becd71;
+    padding: 20px;
+  }
+  
+  .bottom-text div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom-text div:not(:last-child) {
+    margin-right: 20px;
+  }
