@@ -1,0 +1,35 @@
+.hero-section{
+    background-image: url(images/hero-image2.png);
+    width: 100%;
+    height: 742px;
+    margin: 105px auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+          
+    
+}
+
+
+
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #becd71;
+    padding: 20px;
+  }
+  
+  .bottom-text div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom-text div:not(:last-child) {
+    margin-right: 20px;
+  }
