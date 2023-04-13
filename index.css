@@ -1,17 +1,30 @@
 body {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0; 
   }
 
-.menu {
+.header-content {
+    height: 99px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Helvetica';
+    color: #000000;
 }
 
 .hero-section {
     width: 100%;
     height: 742px;
-    margin: 105px auto;
+    margin: 0px 0 50px;
     background-image: url(images/hero-image.png);
     background-position: center;
     background-size: cover;
@@ -32,21 +45,18 @@ body {
 }
 
 h1 {
-width: 677px;
-height: 110px;
-left: 371px;
-top: 360px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-
-color: #FFFFFF;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 677px;
+    height: 110px;
+    left: 371px;
+    top: 360px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-button {
@@ -60,7 +70,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .info-text {
-    font-family: 'Inter';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -71,9 +81,14 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 
 }
 
+.text-picture {
+    font-family: 'Helvetica';
+
+}
+
 .wrap {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
@@ -88,21 +103,20 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 
 
 .picture img{
-    width:  400px;
+    width:  300px;
     height: 300px;
     object-fit: cover;
 }
 
 .text-image {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Helvetica';
     font-size: 1rem;
     text-align: start;
 }
 
 .tilbud {
     display: flex;
-    justify-content: center;
-    border-bottom: 1px solid black;
+    justify-content: center;    
 }
 
 .donasjon {
@@ -111,13 +125,31 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     align-items: center;
 }
 
+.donasjon-button {
+    width: 270px;
+    height: 80px;
+    background: #BECD71;
+    border-radius: 51.5px;
+    margin: 15px;
+}
+
+.footer-image {
+    width: 201px;
+    height: 201px;
+}
+
+.footer-text {
+    font-size: 11px;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
 .footer-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #becd71;
-    padding: 20px;
   }
   
   .bottom-text div {
@@ -125,6 +157,3 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     flex-direction: column;
   }
   
-  .bottom-text div:not(:last-child) {
-    margin-right: 20px;
-  }
