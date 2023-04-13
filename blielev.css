@@ -1,7 +1,7 @@
 .hero-section{
     background-image: url(images/hero-image2.png);
     width: 100%;
-    height: 742px;
+    height: 869px;
     margin: 105px auto;
     background-position: center;
     background-size: cover;
@@ -9,9 +9,55 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-          
-    
 }
+
+h1 {
+  width: 677px;
+  height: 110px;
+  left: 371px;
+  top: 360px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #BECD71;
+  }
+
+  .main-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .upper-content {
+    display: flex;
+    justify-content: row;
+
+  }
+
+  .lower-content {
+    display: flex;
+    justify-content: row;
+  }
+
+  .skjema-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    width: 583px;
+    height: 76px;
+    background: #BECD71;
+    border-radius: 15px;
+    margin: 50px;
+  }
+
+  img {
+    width: 523px;
+    height: 473px;
+  }
 
 
 
